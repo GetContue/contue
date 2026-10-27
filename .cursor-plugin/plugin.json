@@ -1,0 +1,14 @@
+{
+  "name": "contue",
+  "version": "0.1.0",
+  "description": "Contue issue tracking for AI agents: remote MCP at getcontue.com plus Contue protocol skill. Free plugin; cloud storage beyond free tier is billed on getcontue.com.",
+  "author": {
+    "name": "Contue",
+    "email": "hello@getcontue.com"
+  },
+  "homepage": "https://getcontue.com",
+  "repository": "https://github.com/GetContue/contue",
+  "license": "MIT",
+  "keywords": ["contue", "mcp", "issue-tracking", "tasks"],
+  "logo": "assets/icon.png"
+}

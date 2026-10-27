@@ -1,0 +1,30 @@
+{
+  "name": "contue",
+  "version": "0.1.0",
+  "description": "Contue 在线插件：协议和在线 MCP 连接，给没有本机 Contue App 的云端会话用。",
+  "author": {
+    "name": "Contue",
+    "url": "https://getcontue.com"
+  },
+  "homepage": "https://getcontue.com",
+  "keywords": [
+    "contue",
+    "mcp"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./mcp.json",
+  "interface": {
+    "displayName": "Contue Cloud",
+    "shortDescription": "在线 Contue 协议和连接",
+    "longDescription": "Contue 在线插件：协议和在线 MCP 连接，给没有本机 Contue App 的云端会话用。",
+    "developerName": "Contue",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "logo": "./assets/icon.png",
+    "composerIcon": "./assets/icon.png"
+  },
+  "license": "MIT"
+}

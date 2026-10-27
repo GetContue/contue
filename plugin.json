@@ -1,0 +1,36 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "contue",
+  "version": "0.1.0",
+  "description": "Contue issue tracking for AI agents via remote MCP (getcontue.com) and Contue protocol skill. Plugin install is free; online storage beyond the free tier is billed separately.",
+  "author": {
+    "name": "Contue",
+    "url": "https://getcontue.com"
+  },
+  "homepage": "https://getcontue.com",
+  "keywords": [
+    "contue",
+    "mcp",
+    "issue-tracking"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Contue Cloud",
+        "shortDescription": "在线 Contue 协议和连接",
+        "longDescription": "Contue 在线插件：协议和在线 MCP 连接，给没有本机 Contue App 的云端会话用。",
+        "developerName": "Contue",
+        "category": "Productivity",
+        "capabilities": [
+          "Interactive",
+          "Write"
+        ],
+        "logo": "./assets/icon.png",
+        "composerIcon": "./assets/icon.png"
+      }
+    }
+  },
+  "license": "MIT",
+  "repository": "https://github.com/GetContue/contue",
+  "logo": "assets/icon.png"
+}
